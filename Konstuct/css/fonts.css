@@ -60,28 +60,28 @@
 .footer-line,
 .footer-item__text,
 .footer-item__title  {
-font-size: 11px;
+font-size: calc(2.4px + (11 - 2.4) * ((100vw - 320px) / (1440 - 320)));
 font-weight: 400;
-line-height: 19px;
+line-height: calc(4.2px + (19 - 4.2) * ((100vw - 320px) / (1440 - 320)));
 letter-spacing: 0.20px;
 }
 .footer-item__link {
-font-size: 11px;
+font-size: calc(2.4px + (11 - 2.4) * ((100vw - 320px) / (1440 - 320)));
 font-weight: 400;
-line-height: 16px;
+line-height: calc(3.5px + (16 - 3.5) * ((100vw - 320px) / (1440 - 320)));
 letter-spacing: 0.84px;
 }
 .preview__scroll {
-font-size: 11px;
+font-size: calc(2.4px + (11 - 2.4) * ((100vw - 320px) / (1440 - 320)));	
 font-weight: 600;
-line-height: 15px;
+line-height: calc(3.3px + (15 - 3.3) * ((100vw - 320px) / (1440 - 320)));
 letter-spacing: 3.70px;
 }
 
 .navbar__link {
-font-size: 12px;
+font-size: calc(2.6px + (12 - 2.6) * ((100vw - 320px) / (1440 - 320)));
 font-weight: 600;
-line-height: 16px;
+line-height: calc(3.5px + (16 - 3.5) * ((100vw - 320px) / (1440 - 320)));
 letter-spacing: 1.09px;
 }
 .navbar__link:hover {
@@ -89,78 +89,84 @@ font-weight: 700;
 }
 .about__text,
 .slide-item__text {
-font-size: 13px;
+font-size: calc(2.8px + (13 - 2.8) * ((100vw - 320px) / (1440 - 320)));
 font-weight: 400;
-line-height: 23px;
+line-height: calc(5.1px + (23 - 5.1) * ((100vw - 320px) / (1440 - 320)));
 letter-spacing: 0.18px;
 }
 .top-line__content-btn,
 .g-i-t__btn,
 .news__form-btn {
-font-size: 13px;
+font-size: calc(2.8px + (13 - 2.8) * ((100vw - 320px) / (1440 - 320)));
 font-weight: 700;
-line-height: 18px;
+line-height: calc(4px + (18 - 4) * ((100vw - 320px) / (1440 - 320)));
 letter-spacing: 0.5px;
+cursor: pointer;
 }
 .news__form-email {
-font-size: 14px;
+font-size: calc(3.1px + (14 - 3.1) * ((100vw - 320px) / (1440 - 320)));
 font-weight: 400;
-line-height: 19px;
+line-height: calc(4.2px + (19 - 4.2) * ((100vw - 320px) / (1440 - 320)));
 letter-spacing: 0.07px;
 }
 
 .slide-item__title {
-font-size: 15px;
+font-size: calc(3.3px + (20 - 3.3) * ((100vw - 320px) / (1440 - 320)));
 font-weight: 700;
-line-height: 24px;
+line-height: calc(5.3px + (24 - 5.3) * ((100vw - 320px) / (1440 - 320)));
 letter-spacing: 0.42px;
 }
 
 .preview__text {
-font-size: 16px;
+font-size: calc(3.5px + (16 - 3.5) * ((100vw - 320px) / (1440 - 320)));
+
 font-weight: 600;
-line-height: 22px;
+line-height: calc(4.9px + (22 - 4.9) * ((100vw - 320px) / (1440 - 320)));
 }
 
 .about__title-2,
 .top-line__title {
-font-size: 18px;
+font-size: calc(4px + (18 - 4) * ((100vw - 320px) / (1440 - 320)));
+
 font-weight: 700;
-line-height: 25px;
+line-height: calc(5.5px + (25 - 5.5) * ((100vw - 320px) / (1440 - 320)));
 letter-spacing: 2.30px;
 }
 .about__title{
-font-size: 20px;
+font-size: calc(4.4px + (20 - 4.4) * ((100vw - 320px) / (1440 - 320)));
 font-weight: 700;
-line-height: 27px;
+line-height: calc(6px + (27 - 6) * ((100vw - 320px) / (1440 - 320)));
 letter-spacing: 0.18px;
 }
 .news__title {
-font-size: 22px;
+font-size: calc(4.8px + (22 - 4.8) * ((100vw - 320px) / (1440 - 320)));
+
 font-weight: 700;
-line-height: 30px;
+line-height: calc(6.6px + (30 - 6.6) * ((100vw - 320px) / (1440 - 320)));
 letter-spacing: 0.84px;
 }
 .slide__item-title {
-font-size: 24px;
+font-size: calc(5px + (24 - 5) * ((100vw - 320px) / (1440 - 320)));
 font-weight: 800;
-line-height: 29px;
+line-height: calc(6.4px + (29 - 6.4) * ((100vw - 320px) / (1440 - 320)));
 letter-spacing: 0.18px;
 }
 .g-i-t__title {
-font-size: 30px;
+font-size: calc(6px + (30 - 6) * ((100vw - 320px) / (1440 - 320)));
 font-weight: 700;
-line-height: 36px;
+line-height: calc(8px + (36 - 8) * ((100vw - 320px) / (1440 - 320)));
 letter-spacing: 0.15px;
 }
 
 
 .prevew__title {
 font-family: BebasNeueBold;
-font-size: 60px;
-line-height: 70px;
+font-size: calc(13px + (60 - 13) * ((100vw - 320px) / (1440 - 320)));
+line-height: calc(15.5px + (70 - 15.5) * ((100vw - 320px) / (1440 - 320)));
 letter-spacing: 5.70px;
 }
+
+
 
 
 
